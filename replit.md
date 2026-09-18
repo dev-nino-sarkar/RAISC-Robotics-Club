@@ -1,6 +1,6 @@
-# [Project name]
+# RAISC Robotics Club
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+An informational website for GKCIET’s student-led Robotics, AI and Intelligent Systems Club.
 
 ## Run & Operate
 
@@ -22,19 +22,25 @@ _Replace the heading above with the project's name, and this line with one sente
 
 ## Where things live
 
-_Populate as you build — short repo map plus pointers to the source-of-truth file for DB schema, API contracts, theme files, etc._
+- `artifacts/raisc-club/src/App.tsx` — single-page club website content and interactions
+- `artifacts/raisc-club/src/index.css` — dark robotics visual system, typography, responsive layout, and motion
+- `artifacts/raisc-club/.replit-artifact/artifact.toml` — web artifact routing and preview configuration
 
 ## Architecture decisions
 
-_Populate as you build — non-obvious choices a reader couldn't infer from the code (3-5 bullets)._
+- The public site is frontend-only; club information is static and does not need a database or API.
+- The main artifact is served at `/` so the project opens directly to the club website.
+- External destinations are limited to the official GKCIET club page, RAISC LinkedIn page, and the convenor’s mail link.
 
 ## Product
 
-_Describe the high-level user-facing capabilities of this app once they exist._
+- Presents RAISC’s mission, interdisciplinary robotics context, focus areas, working model, milestones, people, and join/follow actions.
+- Uses a minimal dark futuristic robotics identity with a prominent calligraphic RAISC wordmark.
 
 ## User preferences
 
-_Populate as you build — explicit user instructions worth remembering across sessions._
+- Keep the experience minimal, dark, futuristic, and robotics-focused.
+- Prefer the calligraphic RAISC wordmark over the previously removed hero diagram.
 
 ## Gotchas
 
